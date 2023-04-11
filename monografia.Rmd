@@ -1,0 +1,44 @@
+---
+titulo: "Monografia"
+subtitulo: "Algum subtitulo"
+aluno: "Seu nome"
+orientador: "Nome seu orientador"
+coorientador: ""
+semestre: 1
+ano: 2023
+referencias: referencias.bib
+pre-texto: "Projeto apresentado para o Departamento de Estatística da Universidade de Brasília como parte dos requisitos necessários para obtenção do grau de Bacharel em Estatística."
+output: 
+  bookdown::pdf_document2:
+    template: monografia_template.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introdução
+
+Uma Introdução \cite{guo2017calibration} e \citeonline{kuleshov2018accurate} ex
+@guo2017calibration
+\newpage
+
+# Objetivos
+
+## Objetivo geral
+
+## Objetivos específicos
+
+\newpage
+
+# Metodologia
+
+## Conjunto de dados 
+
+\newpage
+
+# Cronograma
+
+
+
+

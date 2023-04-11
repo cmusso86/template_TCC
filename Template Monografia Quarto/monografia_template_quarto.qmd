@@ -1,0 +1,75 @@
+---
+titulo: "Monografia"
+subtitulo: "Algum subtitulo"
+aluno: "Carolina Musso"
+orientador: "Nome seu orientador"
+coorientador: ""
+ano: 2023
+keep-tex: true
+pre-texto: "Projeto apresentado para o Departamento de Estatística da Universidade de Brasília como parte dos requisitos necessários para obtenção do grau de Bacharel em Estatística."
+bibliography: referencias.bib
+number-sections: true
+csl: abnt4.csl
+format:
+  pdf:
+    template: monografia_template_quarto.tex
+lang: pt
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introdução
+
+Uma Introdução  @guo2017calibration
+@cordeiro2008modelos
+@dobson2018introduction
+
+
+\newpage
+
+# Objetivos
+
+## Objetivo geral
+
+## Objetivos específicos
+
+\newpage
+
+# Metodologia
+
+## Conjunto de dados 
+
+\newpage
+
+# Cronograma
+As atividades a serem desenvolvidas durante o Trabalho de Conclusão de Curso em $semestre$/$ano$ são: 
+  
+  \definecolor{midgray}{gray}{.5}
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Cronograma}
+\begin{tabular}{|l|c|c|c|c|c|} \hline
+\multirow{2}{*}{Atividades} & \multicolumn{5}{c|}{$semestre$/$ano$} \\ \cline{2-6}				
+& Mar & Abr & Mai & Jun & Jul \\ \hline	
+
+Escolha do tema a ser abordado    & \cellcolor{midgray} & \cellcolor{midgray} & & & \\ \hline
+Desenvolvimento da proposta de projeto & & \cellcolor{midgray} & & &\\ \hline     
+Entrega da proposta de projeto      &  &  & \cellcolor{midgray} & &\\ \hline        
+Revisão de literatura     & & & \cellcolor{midgray} & \cellcolor{midgray} & \cellcolor{midgray} \\ \hline      
+Elaboração da apresentação da proposta    & & & & & \cellcolor{midgray} \\ \hline        
+Apresentação oral da proposta    & & & & & \cellcolor{midgray}\\ \hline        
+Elaboração do relatório parcial  & & & & & \cellcolor{midgray} \\ \hline
+
+
+\end{tabular}
+\end{table}
+
+
+\newpage
+# Referências
+
+<div id="refs"></div>
